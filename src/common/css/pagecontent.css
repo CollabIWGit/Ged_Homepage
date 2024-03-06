@@ -1,0 +1,76 @@
+.mb-4 {
+    text-align-last: center;
+}
+
+.flexContainer-95 {
+    color: white;
+}
+
+.treeView_91515d42 .treeSelector_91515d42>button {
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    color: ivory;
+}
+
+span:hover {
+    color: rgb(212, 189, 43);
+
+}
+
+.simpleFooterContainer-215 {
+    display: none;
+}
+
+#doc_form_access_rights {
+    display: none;
+}
+
+.e_a_ada2ac09 {
+    display: none;
+}
+
+#tbl_documents_versions {
+    margin: 2em;
+    width: 96%;
+}
+
+#spListPermissions {
+    display: none;
+}
+
+#table_version_doc {
+    display: none;
+}
+
+.update_details_doc {
+    float: right;
+}
+
+#form_metadata label {
+    margin: 2em;
+}
+
+#view {
+    color: black;
+}
+
+#h2_title,
+#h2_folderName {
+    padding-bottom: 1em;
+}
+
+#view,
+.add_group,
+.add_subfolder {
+    margin-top: 34px
+}
+
+#table_documents {
+    display: none;
+}
+
+#alert_0_doc {
+    display: none;
+    text-align: center;
+}

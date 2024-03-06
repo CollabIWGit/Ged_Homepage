@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "new-ged-project-name",
+    "libraryId": "1405d4dc-8367-4628-b9e3-c4ad1fe3ded1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "NewGEDProjectName",
+    "solutionShortDescription": "NewGEDProjectName description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

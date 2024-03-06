@@ -1,0 +1,232 @@
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+/* .treeView_91515d42 .itemContent_91515d42.noCheckBox_91515d42:not(.disabled_91515d42).checked_91515d42 {
+    background-color: #ee4822;
+} */
+
+.noCheckBox_91515d42 span:hover {
+    color: #212529;
+}
+
+.treeView_91515d42 .itemContent_91515d42.noCheckBox_91515d42:not(.disabled_91515d42):hover {
+    background-color: #ee4822;
+}
+
+
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+
+
+/* .link-header a {
+    color: #181717;
+    font-weight: 300;
+    font-size: .875rem;
+    letter-spacing: 1px;
+} */
+
+#doc_details,
+#nav_file {
+    display: none;
+}
+
+#form_metadata label {
+    margin: 0.5em;
+}
+
+#subfolders_form,
+#edit_details,
+#access_rights_form,
+#doc_details,
+#doc_details_add {
+    display: none;
+    padding: 2em;
+    background-color: rgb(18 87 150 / 18%);
+    border-radius: 1em;
+
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #dee2e6;
+    margin-left: 3px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #f8f9fa;
+    padding: 4px;
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+    background-color: rgba(18, 87, 150, .18);
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color: #12579600;
+}
+
+
+#spListDocuments {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 2em;
+    border-radius: 10px;
+}
+
+
+.table>thead {
+    vertical-align: bottom;
+    background-color: aliceblue;
+}
+
+
+.table thead tr th {
+    padding: 14px 10px;
+    color: #212529;
+    font-size: 16px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+}
+
+#loader {
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #f54630;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+
+.btn_edit_dossier {
+    float: right;
+}
+
+.scp-breadcrumb {
+    margin: 2px;
+}
+
+#access_form {
+    display: none;
+}
+
+#doc_details_add {
+    display: none;
+}
+
+.add_doc {
+    float: right;
+}
+
+#nav {
+    font-size: large;
+    margin-left: 3em;
+}
+
+.breadcrumb breadcrumb-item li+li:before {
+    padding: 8px;
+    content: "";
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    background: rgba(255, 255, 255, 0.8);
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-top: 0;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+.treeView_91515d42 .itemContent_91515d42.noCheckBox_91515d42:not(.disabled_91515d42).checked_91515d42 {
+    background-color: #ee4822;
+}
+
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color: #f8f9fa;
+}
+
+.image img {
+    float: left;
+    padding-right: 16px;
+}
+
+.update_details_doc {
+    display: block;
+    float: right;
+
+}
+
+
+#notifications_doc_form {
+    display: none;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

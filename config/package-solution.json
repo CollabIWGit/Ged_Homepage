@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "new-ged-project-name-client-side-solution",
+    "id": "1405d4dc-8367-4628-b9e3-c4ad1fe3ded1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NewGEDProjectName description"
+      },
+      "longDescription": {
+        "default": "NewGEDProjectName description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "new-ged-project-name Feature",
+        "description": "The feature that activates elements of the new-ged-project-name solution.",
+        "id": "6f02bbcd-2e6f-40d9-998d-98a62117747a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/new-ged-project-name.sppkg"
+  }
+}
