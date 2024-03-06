@@ -1,5 +1,7 @@
 # new-ged-project-name
 
+make use of node version 18.18.2 to use this solution
+
 ## Summary
 
 Short summary on functionality and used technologies.
