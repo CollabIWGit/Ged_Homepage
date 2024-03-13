@@ -427,9 +427,8 @@ export default class HomepageWebPart extends BaseClientSideWebPart<IHomepageWebP
       } else if (imageJson2 == null) {
         htmlcatBtn += `
                 <div class="cta-mg-repeated">
-                    <a href="${
-                      element.url
-                    }" style="background-image: url('${require<string>("./../../common/images/bg-cta4.png")}')">
+                    <a href="${element.url
+          }" style="background-image: url('${require<string>("./../../common/images/bg-cta4.png")}')">
                         ${element.Title}
                     </a>
                 </div>`;
